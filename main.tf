@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_instance" "ubuntu" {
-  ami           = "ami-08e93a9522bbe6df6"
+  ami           = "ami-005e54dee72cc1d00"
   instance_type = var.instance_type
 
   network_interface {
