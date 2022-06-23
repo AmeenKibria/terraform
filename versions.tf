@@ -3,7 +3,7 @@ terraform {
     organization = "tutorial-workspace"
 
     workspaces {
-      name = "learn2-terraform-cloud"
+      name = "learn-terraform-cloud-vcs"
     }
   }
 
